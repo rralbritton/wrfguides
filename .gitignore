@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# VSCode launch configuration
+launch.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
