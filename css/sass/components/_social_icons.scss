@@ -1,0 +1,30 @@
+.social-icons {
+    list-style: none;
+    float: right;
+    font-size: 180%;
+    color: $primary-color-beige;
+    
+    li {
+        display: inline-block;
+        margin-right: 2rem;
+
+        &:last-child {
+            margin-right: 0
+        }
+
+        a:visited,
+        a:link{
+            text-decoration: none;
+            border: 0;
+            -webkit-transition: color 0.2s, border-bottom 0.2s;
+            transition: color 0.2s, border-bottom 0.2s;
+                }
+
+        a:hover,
+        a:active {
+        color: $primary-color-orange;
+        }
+}
+}
+
+

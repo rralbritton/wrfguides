@@ -1,0 +1,26 @@
+.section-features {
+    padding: 5rem 0;
+    position: relative;
+    height: 90vh;
+}
+
+.section-experiences {
+    padding: 4rem 0;
+}
+
+.experiences-showcase {
+    @include clearfix;
+    list-style: none;
+    width: 100%;
+
+    li {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+}
+
+.section-stories {
+    position: relative;
+    padding: 5rem 0;
+}

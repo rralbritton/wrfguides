@@ -5,10 +5,192 @@
 <meta name="description"
     content="description here that uses keywords - no more then 160 characters. Like this is a fictional site that demonstrates my CSS3 and HTML5 design skills.">
 
-<head>Title</head>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WRF Guides</title>
+</head>
 
 <body>
+    <header
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(images/MainHeaderHero.png">
+        <nav>
+            <div class="row">
+                <img class="logo" src="images/logo.png" alt="wrf logo - lrg" />
+                <!--<img class="logo-black" src="resources/img/logo.png" alt="omnifood logo - black" />-->
+                <ul class="main-nav">
+                    <li><a href="#">Trips</a></li>
+                    <li><a href="#">Lodging</a></li>
+                    <li><a href="#">Shuttle Service</a></li>
+                    <li><a href="#">Fly Shop</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <a class="mobile-nav-icon">
+                    <ion-icon class="mobile-icon" name="menu"></ion-icon>
+                </a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Western Rivers Flyfisher Guides</h1>
+            <h2>Come Fish With Us</h2>
+        </div>
+    </header>
+    <section class="section-features">
+        <div class="row">
+            <h2>Our Mission</h2>
+            <p class="long-copy">
+                WRF Guides is a Fly fishing family that promotes tradition, ethics, conservation and knowledge. We feel
+                we have an obligation to share our knowledge with our friends and to learn from one another in order to
+                continue our progression. We strive to provide a flyfishing experience that inspires our customers to
+                become great fly fishers as well as stewards of the river.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="feature-box">
+                    <i class="feature-box__icon fas fa-fish"></i>
+                    <h3 class="heading-tertiary u-margin-small">Fish</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae magni corrupti, minus
+                        odit quia expedita possimus iusto nisi suscipit maiores!
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="feature-box">
+                    <i class="feature-box__icon fas fa-campground"></i>
+                    <h3 class="heading-tertiary u-margin-small">Camp</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae magni corrupti, minus
+                        odit quia expedita possimus iusto nisi suscipit maiores!
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="feature-box">
+                    <i class="feature-box__icon fas fa-water"></i>
+                    <h3 class="heading-tertiary u-margin-small">River Conditions</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae magni corrupti, minus
+                        odit quia expedita possimus iusto nisi suscipit maiores!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-experiences">
+        <ul class="experiences-showcase">
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/Darrens-Profile-Pic.png" alt="Darrens-Profile-Pic" />
+                </figure>
+            </li>
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/exp2.jpg" alt="drift boats at sunset" />
+                </figure>
+            </li>
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/exp3.jpg" alt="Matt guide" />
+                </figure>
+            </li>
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/exp4.jpg" alt="brown trout" />
+                </figure>
+            </li>
+        </ul>
 
+        <ul class="experiences-showcase">
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/exp5.jpg" alt="Amanda holding brown trout" />
+                </figure>
+            </li>
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/exp6.png" alt="green river section a" />
+                </figure>
+            </li>
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/exp7.jpg" alt="grip and grin" />
+                </figure>
+            </li>
+            <li>
+                <figure class="experience-photo">
+                    <img src="images/exp8.jpg" alt="River ROcks" />
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-stories">
+        <h2>A world class flyfishing expereince</h2>
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="images/exp1.jpg" alt="person on a tour" class="story__img" />
+                    <figcaption class="story__caption">Mary Smith</figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3>Amazing Experience</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla sed quidem earum, ea quisquam
+                        corrupti vero quas, molestiae rem aperiam atque cupiditate ad fugiat voluptatum soluta eius
+                        ad fugiat voluptatum soluta eius rerum tempore harum soluta eius rerum, tempore harum!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="images/exp7.jpg" alt="testimonial" class="story__img" />
+                    <figcaption class="story__caption">Geoff Mueller</figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3>A Summertime Staple</h3>
+                    <p>“And this is why overnight float trips are a summertime staple: Schedules are lax. Fishing days
+                        are long. Whatever mystery enchiladas the Dutch-oven reveals taste better when shared with
+                        friends. And with several uninterrupted days on the water, the experience is all about full
+                        immersion.” - Senior Editor at The Drake</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <p class="long-copy">WRF offers guided trips under Special Use Permit with the Ashley National Forest
+                </p>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">
+                            <i id="logo-facebook" class="social-icons fab fa-facebook-square"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i id="logo-twitter" class="social-icons fab fa-twitter"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="social-icons fab fa-google-plus-square"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="social-icons fab fa-instagram"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p class="copyright">
+                Copyright &copy;2020 by Western Rivers Flyfisher Guides. All rights reserved.
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>

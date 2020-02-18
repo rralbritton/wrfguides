@@ -1,0 +1,42 @@
+
+footer {
+    background-color: $primary-color-green;
+    color: $primary-color-beige;
+    padding: 2rem;
+}
+
+.social-icons {
+    list-style: none;
+    float: right;
+    font-size: 135%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left
+
+    li {
+        display: inline-block;
+        margin-right: 2rem;
+    }
+        &:last-child {
+            margin-right: 0
+        }
+
+        a:visited,
+        a:link{
+            text-decoration: none;
+            border: 0;
+            -webkit-transition: color 0.2s, border-bottom 0.2s;
+            transition: color 0.2s, border-bottom 0.2s;
+        }
+
+        a:hover,
+        a:active
+     {
+        color: $primary-color-orange;
+        border-bottom: 2px solid $primary-color-orange;
+        padding-bottom: 7px;
+    }
+}
+
