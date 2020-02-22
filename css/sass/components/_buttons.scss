@@ -1,0 +1,46 @@
+.btn
+ {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 110%;
+    text-decoration: none;
+    border-radius: 20rem;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+    &:hover,
+    &:active {
+        background-color: $primary-color-orange;
+    }
+}
+
+
+.btn-full
+ {
+    background-color: $primary-color-orange;
+    border: 1px solid $primary-color-orange;
+    color: $primary-color-beige;
+    margin-right: 1.5rem;
+
+    &:hover,
+    &:active {
+        border: 1px solid $primary-color-orange;
+        background-color: lighten($primary-color-orange,10%);
+    }
+}
+
+.btn-ghost
+{
+    border: 1px solid $primary-color-beige;
+    color: $primary-color-orange;
+    background-color: rgba($primary-color-beige, 0.9);
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid $primary-color-orange;
+    color: $primary-color-beige;
+}
+
+.call-to-action {
+    text-align: center;
+}

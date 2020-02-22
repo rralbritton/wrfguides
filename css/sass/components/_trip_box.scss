@@ -1,0 +1,33 @@
+
+.trip-box {
+    background-color: $primary-color-beige;
+    border-radius: 3px;
+    width: 90%;
+    margin-left: 5%;
+    padding: 1.5rem;
+    border: 1px solid darken($primary-color-beige,10%);
+}
+
+.trip-box div {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.trip-box ul {
+    list-style-type: none;
+}
+
+.trip-box ul li {
+    line-height: 145%;
+    word-spacing: 5px;
+}
+
+.trip-box a {
+    margin-left: 20%;
+}
+
+.trip-price-span {
+    color: primary-color-green;
+    font-size: 110%;
+    font-weight: 400;
+}

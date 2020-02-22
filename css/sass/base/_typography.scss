@@ -32,13 +32,6 @@ h2{
     color: $primary-color-orange;
 }
 
-h3{
-    font-size: 130%;
-    margin-bottom: 1.5rem;
-    font-weight: 400;
-    
-}
-
 h2:after {
     display: block;
     height: 2px;
@@ -47,4 +40,21 @@ h2:after {
     width: 10rem;
     margin: 0 auto;
     margin-top: 3rem;
+}
+
+h3{
+    font-size: 130%;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    color: $primary-color-green; 
+}
+
+
+
+h4{
+    font-size: 110%;
+    margin-bottom: 1.5rem;
+    font-weight: 400; 
+    text-transform: uppercase;
+    text-decoration: underline;
 }
