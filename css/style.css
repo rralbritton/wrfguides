@@ -57,15 +57,14 @@ h2 {
   margin-bottom: 3rem;
   letter-spacing: 1px;
   color: #de6126; }
-
-h2:after {
-  display: block;
-  height: 2px;
-  background-color: #efebda;
-  content: " ";
-  width: 10rem;
-  margin: 0 auto;
-  margin-top: 3rem; }
+  h2:after {
+    display: block;
+    height: 2px;
+    background-color: #efebda;
+    content: " ";
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 3rem; }
 
 h3 {
   font-size: 130%;
@@ -414,8 +413,8 @@ footer {
   padding: 5rem 0; }
 
 .section-inner {
-  max-width: 100rem;
-  margin: 5rem 25rem;
+  max-width: 70%;
+  margin: 5rem 15%;
   line-height: 1.7;
   font-size: 110%; }
 
@@ -426,3 +425,32 @@ footer {
   color: #4a7637;
   font-size: 110%;
   margin-right: 1rem; }
+
+.inner-sub-header {
+  list-style: none;
+  margin-top: 2rem;
+  border-bottom: 1px solid #efebda; }
+  .inner-sub-header ul {
+    float: right; }
+  .inner-sub-header li {
+    display: inline-block;
+    margin: 0.5rem; }
+    .inner-sub-header li a:link,
+    .inner-sub-header li a:visited {
+      color: #de6126;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 110%;
+      border-bottom: 2px solid transparent;
+      -webkit-transition: border-bottom 0.2s;
+      transition: border-bottom 0.2s;
+      padding: 1rem 0; }
+    .inner-sub-header li a:hover,
+    .inner-sub-header li a:active {
+      border-bottom: 2px solid #de6126; }
+    .inner-sub-header li::after {
+      height: 2px;
+      color: #efebda;
+      content: "|";
+      font-size: 125%;
+      padding: 0 0.5rem; }

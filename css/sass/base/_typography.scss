@@ -30,16 +30,16 @@ h2{
     margin-bottom: 3rem;
     letter-spacing: 1px;
     color: $primary-color-orange;
-}
 
-h2:after {
-    display: block;
-    height: 2px;
-    background-color: $primary-color-beige;
-    content:" ";
-    width: 10rem;
-    margin: 0 auto;
-    margin-top: 3rem;
+    &:after {
+        display: block;
+        height: 2px;
+        background-color: $primary-color-beige;
+        content:" ";
+        width: 10rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
 }
 
 h3{
