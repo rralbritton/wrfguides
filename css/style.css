@@ -82,7 +82,7 @@ h4 {
 .story {
   width: 75%;
   margin: 0 auto;
-  padding: 6rem;
+  padding: 3rem;
   padding-left: 9rem;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: rgba(239, 235, 218, 0.6);
@@ -421,8 +421,8 @@ footer {
 
 .trip-details__intro:after {
   display: block;
-  height: 2px;
-  background-color: #efebda;
+  height: 3px;
+  background-color: #e0d8b6;
   content: " ";
   width: 10rem;
   margin: 0 auto;
@@ -439,7 +439,7 @@ footer {
 .inner-sub-header {
   list-style: none;
   margin-top: 2rem;
-  border-bottom: 1px solid #efebda; }
+  border-bottom: 1px solid #e0d8b6; }
   .inner-sub-header ul {
     float: right; }
   .inner-sub-header li {
@@ -454,13 +454,12 @@ footer {
       border-bottom: 2px solid transparent;
       -webkit-transition: border-bottom 0.2s;
       transition: border-bottom 0.2s;
-      padding: 1rem 0; }
+      padding: 0 1rem; }
     .inner-sub-header li a:hover,
     .inner-sub-header li a:active {
       border-bottom: 2px solid #4a7637; }
     .inner-sub-header li::after {
-      height: 2px;
-      color: #efebda;
+      color: #e0d8b6;
       content: "|";
       font-size: 125%;
       padding: 0 0.5rem; }
