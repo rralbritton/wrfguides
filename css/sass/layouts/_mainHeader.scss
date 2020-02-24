@@ -6,9 +6,9 @@ header {
 }
 
 .hero-text-box {
-    position: absolute;
-    width: 114rem;
-    top: 50%;
+    position: relative;
+    width: 100%;
+    top: 30%;
     left: 50%;
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
@@ -16,8 +16,8 @@ header {
 }
 
 .logo {
-    height: 14rem;
-    width: auto;
+    height: auto;
+    width: 20%;
     float: left;
     margin-top: 2rem;
 }
@@ -26,11 +26,11 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 5rem;
+    margin-top: 4rem;
 
     li {
         display: inline-block;
-        margin-left: 4rem;
+        margin-left: 2rem;
 
         a:link,
         a:visited {
@@ -58,3 +58,57 @@ header {
     font-size: 115%;
 }
 
+/********MOBILE - NAV **********/
+
+.mobile-nav-icon {
+    float: left;
+    margin-top: 3rem;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon .fa-bars {
+    font-size: 200%;
+    color: $primary-color-beige;
+}
+
+
+/** Media Queries */
+
+@media only screen and (max-width: 992px){
+
+    .main-nav {
+        float: left;
+        margin: 3.5rem 0  0 2rem;
+        padding: 2rem;
+        display: none;
+        background-color: rgba(0,0,0, .5);
+    
+        li{
+            display: block;
+
+            a:link,
+            a:visited {
+                display: block;
+                border: 0;
+                font-size: 100%;
+            }
+        }
+    }
+
+    .logo {
+        float: right;
+    }
+
+    .mobile-nav-icon { 
+        display: inline-block;
+    }
+   
+    }
+
+
+    /*@media only screen and (max-width: 768px){
+
+       
+
+    }*/

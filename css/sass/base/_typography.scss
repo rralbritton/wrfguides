@@ -4,6 +4,7 @@ body {
     font-size: $default-font-size;
     line-height: 1.7;
     color: $default-font-color;
+    text-rendering: optimizeLegibility;
 }
 
 h1, 
@@ -58,3 +59,14 @@ h4{
     text-transform: uppercase;
     text-decoration: underline;
 }
+
+/** Media Queries */
+
+@media only screen and (max-width: 992px){
+    h1 {font-size: 240%;}
+    }
+
+    
+@media only screen and (max-width: 768px){
+    h1 {font-size: 225%;}
+    }
